@@ -1,10 +1,10 @@
-**Adresa aplikace:** https://kind-plum-goshawk-cuff.cyclic.app.com/
+**Adresa aplikace:** https://kind-plum-goshawk-cuff.cyclic.app/
 
 Je možné si vytvořit vlastního uživatele s dodžením instrukcí ohledně vytvoření hesla, nebo se přihlásit pomocí již existujícího uživatele (email: name@example.com, heslo: user0123/). 
 
 (ps. občas to ze začátku dělalo blbosti při prvním login/sign up, ale jelikož se to už neobjevilo, tak jsem neměl možnost zjistit proč to nefungovalo (refresh fixes everything))
 
-**JSON formát:** https://kind-plum-goshawk-cuff.cyclic.app.com/json
+**JSON formát:** https://kind-plum-goshawk-cuff.cyclic.app/json
 
 Data JSON formátu jsou k zobrazení po kliknutí na tlačítko s textem JSON data. Pro zobrazení dat ve formátu JSON je nutné aby byl uživatel přihlášen. (V kódu jsem chtěl využít process.env... pro adresu přímo ale )
 
