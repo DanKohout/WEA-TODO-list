@@ -4,7 +4,7 @@ Je možné si vytvořit vlastního uživatele s dodžením instrukcí ohledně v
 
 (ps. občas to ze začátku dělalo blbosti při prvním login/sign up, ale jelikož se to už neobjevilo, tak jsem neměl možnost zjistit proč to nefungovalo (refresh fixes everything))
 
-**JSON formát:** https://kind-plum-goshawk-cuff.cyclic.app/json
+**JSON formát:** https://kind-plum-goshawk-cuff.cyclic.app/json (ps. musíte být přihlášený aby věděl jaká data má poslat)
 
 Data JSON formátu jsou k zobrazení po kliknutí na tlačítko s textem JSON data. Pro zobrazení dat ve formátu JSON je nutné aby byl uživatel přihlášen. (V kódu jsem chtěl využít process.env... pro adresu přímo ale )
 
