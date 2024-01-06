@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', async function(){
      */
     jsonFormat.addEventListener('click', function(){
         window.open('https://kind-plum-goshawk-cuff.cyclic.app/json', '_blank')
-        console.log('process.env.CYCLIC_URL: ',process.env.CYCLIC_URL)
+        //console.log('process.env.CYCLIC_URL: ',process.env.CYCLIC_URL)
         //window.open(process.env.CYCLIC_URL+'/json', '_blank')
         //window.open('http://localhost:3000/json', '_blank')
     })
