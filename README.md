@@ -1,13 +1,12 @@
-**Adresa aplikace:** https://-----.com/
+**Adresa aplikace:** https://kind-plum-goshawk-cuff.cyclic.app.com/
 
-Je možné si vytvořit vlastního uživatele s dodžením instrukcí ohledně vytvoření hesla, nebo se přihlásit pomocí již existujícího uživatele (email: name@example.com, heslo: user0123/).
+Je možné si vytvořit vlastního uživatele s dodžením instrukcí ohledně vytvoření hesla, nebo se přihlásit pomocí již existujícího uživatele (email: name@example.com, heslo: user0123/). 
 
-**JSON formát:** https://-----.com/json
+(ps. občas to ze začátku dělalo blbosti při prvním login/sign up, ale jelikož se to už neobjevilo, tak jsem neměl možnost zjistit proč to nefungovalo (refresh fixes everything))
 
-Data JSON formátu jsou k zobrazení po kliknutí na tlačítko s textem JSON data. Pro zobrazení dat ve formátu JSON je nutné aby byl uživatel přihlášen.
+**JSON formát:** https://kind-plum-goshawk-cuff.cyclic.app.com/json
 
-### Upozornění
-Po přidání, úpravě, popřípadě odstranění úkolu je někdy nutné stránku načíst znovu. Toto je způsobeno tím, že změnit něco je časově náročnější než samotné čtení. Tedy stránka se po přidání obnoví, ale zobrazí stará data (tento problém nenastává na localhostu, ale když je aplikace nasazena na -----, někdy k tomuto problému může dojít).
+Data JSON formátu jsou k zobrazení po kliknutí na tlačítko s textem JSON data. Pro zobrazení dat ve formátu JSON je nutné aby byl uživatel přihlášen. (V kódu jsem chtěl využít process.env... pro adresu přímo ale )
 
 ### Zabezpečení - ošetření vstupu
 Pro ošetření vstupu se používá funce, která odhalí předem stanovená nebezpečná klíčová slova. Dalším krokem je použití knihovny striptags na straně serveru, která odstraní všechny html tagy, není tedy potom možné spustit například script.
