@@ -1,0 +1,192 @@
+html {
+    font-family: Helvetica, monospace;
+    font-weight: 600;
+    width: 70%;
+    background-color: #ecf0f1;
+    margin: auto;
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    font-size: medium;
+}
+
+footer {
+    border-top: 1px solid #e74c3c;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+footer p {
+    color: #2c3e50;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    text-decoration: none;
+    font-size: medium;
+    padding: 2em 5em;
+    margin-top: 25px;
+    color: #2c3e50;
+}
+
+.main-content {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.sub-content1 {
+    background-color: #2ecc71;
+    padding: 3em;
+}
+
+.sub-content2 {
+    padding: 3em;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 1em;
+}
+
+h3 {
+    margin: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 25px;
+}
+
+header {
+    background-color: #3498db;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-top: 45px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 1em;
+    font-size: 16px;
+    border: none;
+    background-color: #2ecc71;
+    color: #2c3e50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input {
+    border: 1px solid #E1E5EA;
+    padding: 8px;
+    width: 50%;
+    margin: 3px auto;
+    float: none;
+    display: block;
+}
+
+#signUpInfo {
+    width: 70%;
+    margin: 1.5em auto;
+}
+
+#SignUp,
+#LogIn {
+    margin: 35px;
+    float: none;
+}
+
+#taskText {
+    display: inline;
+    width: 69%;
+}
+
+.task {
+    margin-bottom: 10px;
+}
+
+#tasks {
+    width: 80%;
+    margin: auto;
+}
+
+#tasks input {
+    width: 60%;
+    margin-bottom: 10px;
+    float: left;
+    margin: 0;
+}
+
+#tasks content .text {
+    resize: vertical;
+    overflow-x: hidden;
+}
+
+button.edit,
+button.delete {
+    width: 16%;
+    margin: 0 0.2em;
+}
+
+.delete {
+    color: #2c3e50;
+}
+
+#headline {
+    margin-top: 25px;
+}
+
+input.checkbox {
+    transform: scale(2);
+    float: left;
+    width: 25px;
+    display: inline;
+    box-sizing: border-box;
+}
+
+#onlyChecked,
+#onlyNonChecked,
+#allTasks {
+    width: 17%;
+    margin-bottom: 30px;
+}
+
+#logout {
+    position: absolute;
+    width: 9%;
+    top: 38px;
+    right: 16px;
+}
+
+#jsonformat {
+    position: absolute;
+    width: 9%;
+    top: 85px;
+    right: 16px;
+}
+
+#username {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: medium;
+}
+
+#notesState,
+#logInState,
+#signUpState {
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}

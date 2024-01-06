@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ToDo list page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../styles.css">
+        <script src="/notesScript.js" defer></script>
+    </head>
+    <body>
+        {{>header}}
+                <div class="main-content">
+                <div id="username">Username</div>
+                <button id="logout">Log out</button>
+                <button id="jsonformat">JSON data</button>
+                <input id="taskText" placeholder="What do you want to do" type="text">
+                <button type="submit" id="submitBnt">Add task</button>
+                <h4 id="headline">Your tasks:</h4>
+                <button id="allTasks">Show all</button>
+                <button id="onlyChecked">Show only checked</button>
+                <button id="onlyNonChecked">Show only non checked</button>
+                
+
+                <div id="tasks"></div>
+                <p id="notesState"></p>
+            </div>
+        {{>footer}}
+       
+    </body>
+</html>

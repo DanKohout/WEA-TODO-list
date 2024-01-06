@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    {{>header}}
+    <div class="main-content">
+
+        <input id="name" placeholder="Your name" required>
+        <input id="email" placeholder="Your email address" type="email" required>
+        <input id="password" placeholder="Password" type="password" required minlength="7">
+        
+        <p id="signUpInfo">All fields are required, password has to be longer than 6 characters.</p>
+
+        <button id="SignUp">Sign up</button>
+        <p id="signUpState"></p>
+
+
+    </div>
+    {{>footer}}
+    <script src="/signScript.js"></script>
+</body>
+
+</html>
