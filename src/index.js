@@ -60,7 +60,13 @@ app.get('/notes', (req, res) => {
 })
 
 app.get('/json', auth, async (req, res) => {
+    console.log('userid:')
+    console.log(req.user._id)
+    console.log('GET json starting')
     const tasks = await Task.find({author: req.user._id}, '-_id -author -__v').lean().exec()
     delete tasks["id"]
+    console.log('TASKS:')
+    console.log(tasks)
     res.status(200).json(tasks)
+    console.log('GET json ended succesfuly')
 })
