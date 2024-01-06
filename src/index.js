@@ -33,7 +33,7 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.status(200).render('index', {
         title: 'TODO-list app', 
-        name: 'Ramqio'
+        name: 'Daniel Kohout'
     })
 })
 
@@ -41,21 +41,21 @@ app.get('', (req, res) => {
 app.get('/login', (req, res) => {
     res.status(200).render('login', {
         title: 'Log in', 
-        name: 'Ramqio'
+        name: 'Daniel Kohout'
     })
 })
 
 app.get('/signup', (req, res) => {
     res.status(200).render('signup', {
         title: 'Sign up', 
-        name: 'Ramqio'
+        name: 'Daniel Kohout'
     })
 })
 
 app.get('/notes', (req, res) => {
     res.status(200).render('notes', {
-        title: 'To Do list', 
-        name: 'Ramqio'
+        title: 'TODO-list', 
+        name: 'Daniel Kohout'
     })
 })
 
